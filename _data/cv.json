@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
+    "name": "Hao Wu",
+    "email": "wuhao@stu.scu.edu.cn",
+    "phone": "177****2296",
+    "website": "https://JayLon1022.github.io",
     "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
     "location": {
-      "address": "",
+      "address": "Sichuan University, Jiangan Campus",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Chengdu",
+      "countryCode": "China",
       "region": ""
     },
     "profiles": [
@@ -26,39 +26,23 @@
       {
         "network": "GitHub",
         "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://github.com/JayLon1022"
       }
     ]
   },
   "work": [],
   "education": [
-    {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
-    }
+  
+      {
+        "institution": "Sichuan University",
+        "area": "B.S. in Cybersecurity",
+        "studyType": "",
+        "startDate": "2022-09-01",
+        "endDate": "2026-06-01",
+        "gpa": "3.86/4.00",
+        "courses": []
+      }
+
   ],
   "skills": [],
   "languages": [],
