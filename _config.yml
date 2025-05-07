@@ -8,11 +8,12 @@
 
 # Basic Site Settings
 locale                   : "en-US"
+site_theme               : "default"
 title                    : "Hao Wu / Personal Website"
 title_separator          : "-"
-name                     : &name "How Wu"
+name                     : &name "Hao Wu"
 description              : &description "a third year undergraduate student from Sichuan University."
-url                      : https://JayLon.github.io 
+url                      : https://JayLon1022.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JayLon1022/JayLon1022.github.io"
 
