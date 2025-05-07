@@ -1,11 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
-
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
@@ -13,8 +5,8 @@ title                    : "Hao Wu / Personal Website"
 title_separator          : "-"
 name                     : &name "How Wu"
 description              : &description "a third year undergraduate student from Sichuan University."
-url                      : https://JayLon.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : https://JayLon.github.io 
+baseurl                  : #"" # the subpath of your site, e.g. "/blog"
 repository               : "JayLon1022/JayLon1022.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -24,7 +16,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Hao Wu"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he/him" 
   bio              : "Short biography for the left-hand sidebar"
   location         : "Chengdu, China"
   employer         : "Red Brick University"
@@ -45,12 +37,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
+  github           : "JayLon1022"
+  kaggle           : "JayLon1022"  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -64,7 +56,7 @@ author:
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
-  steam            : # Username
+  steam            : "JayLon1022"
   telegram         : # URL
   tumblr           : # Username
   twitter          : # Username for X / Twitter
