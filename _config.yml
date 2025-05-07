@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Hao Wu"
-  pronouns         : "he/him" 
+  pronouns         : #"he/him" 
   bio              : "Short biography for the left-hand sidebar"
   location         : "Chengdu, China"
   employer         : "Sichuan University"
