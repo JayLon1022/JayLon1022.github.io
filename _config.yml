@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "Hao Wu"
 description              : &description "a third year undergraduate student from Sichuan University."
 url                      : https://JayLon1022.github.io 
-baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JayLon1022/JayLon1022.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -22,7 +22,7 @@ repository               : "JayLon1022/JayLon1022.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : #"profile.png"
+  avatar           : "profile.png"
   name             : "Hao Wu"
   pronouns         : #"he/him" 
   bio              : "Short biography for the left-hand sidebar"
