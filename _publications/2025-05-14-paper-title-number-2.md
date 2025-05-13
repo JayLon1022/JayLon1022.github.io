@@ -5,9 +5,9 @@ category: conferences
 permalink: /publication/2025-05-14-paper-title-number-2
 excerpt: ''
 date: 2025-05-14
-venue: '[Proceeding, TBD] 2025 Conference and Workshop on Neural Information Processing Systems (NeurIPS 2025)'
+venue: '[Proceeding, TBD] 2025 Conference and Workshop on Neural Information Processing Systems (NeurIPS)'
 paperurl: 'http://JayLon1022.github.io/files/Mixing_Configurations_for_Downstream_Prediction.pdf'
-citation: '[TBD] Juntang Wang, <b>Hao Wu</b>, Runkun Guo, Yihan Wang, Dongmian Zou, Shixin Xu (2025). &quot;Mixing Configurations for Downstream Prediction.&quot; <i>2025 Conference and Workshop on Neural Information Processing Systems (NeurIPS 2025)</i>. 1(1).'
+citation: '[TBD] Juntang Wang, <b>Hao Wu</b>, Runkun Guo, Yihan Wang, Dongmian Zou, Shixin Xu (2025). &quot;Mixing Configurations for Downstream Prediction.&quot; <i>2025 Conference and Workshop on Neural Information Processing Systems (NeurIPS)</i>. 1(1).'
 ---
 
 Humans are born with an ability to group objects by similarity—a cognitive mechanism that clustering seeks to replicate.
