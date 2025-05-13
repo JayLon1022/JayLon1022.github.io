@@ -120,48 +120,47 @@ redirect_from:
 - Developed an LLM-based immune detector generation method.
 - Produced 1 CCF-A paper.
 
+## SKILLS
 
-Work experience
-===============
+---
 
-* Fall 2024 - Summer 2025: Reaseach Assistant
+**Programming:** Python · MATLAB · Java · C/C++ · Javascript · PHP
+**Development:** MySQL · HTML/CSS
+**Cybersecurity:** Sangfor Certified Security Associate - Security (SCSA-S)
+**Other Tools:** LaTeX · Markdown · AIGC tools 
+**Languages:** English (Fluent) · Mandarin (Native)
 
-  * Duke Kunshan University
-  * Duties includes: Experiements, Academic Writing
-  * Supervisor: The Users
+## TEACHING
 
-Skills
-======
+---
 
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-============
-
-<ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Talks
-=====
-
-<ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-
-Teaching
-========
-
+<div style="margin-top: -1em;"></div>
 <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  <div style="margin-top: -1em;"></div>
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
 
-Service and leadership
-======================
+## WORK EXPERIENCE
 
-* Currently signed in to 43 different slack teams
+---
+
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <strong>Product Analyst, Intern</strong><br>
+    <em>Second DX Division, NTT Data</em>
+  </div>
+  <div style="text-align: right;">
+    July - Aug 2023<br>
+    Wuxi, China
+  </div>
+</div>
+<div style="margin-top: -0.7em;"></div>
+- Produced a field report on software-related companies. Exceled N1 Japanese training.
+- Highly praised by a Chinese Academy of Sciences lab director.
+
+## XTRA INFORMATION
+
+---
+
+- Interests: Music, ACG, gym.
+
