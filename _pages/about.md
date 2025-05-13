@@ -16,11 +16,11 @@ A Undergraduate student at [Sichuan University](https://www.scu.edu.cn/), majori
 
 ## Research Interests
 
-- Artificial Immune System (AIM) and Computer Immunology
-- Information Security, Security of Industry Control System (ICS) and Intrusion Detection System (IDS)
+- Artificial Immune System (AIS) and Computer Immunology
+- Security of Industry Control System (ICS) and Intrusion Detection System (IDS)
 - Machine Learning for Science
 
 ---
-You can find my CV here: [JayLon&#39;s CV](../assets/CV_E.pdf) .
+You can find my CV here: [JayLon&#39;s English CV](../files/resume_eng.pdf) [JayLon&#39;s Chinese CV](../files/resume_chi.pdf) .
 
 [Email](mailto:wuhao1022@stu.scu.edu.cn) / [Github](https://github.com/JayLon1022)
