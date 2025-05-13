@@ -144,19 +144,6 @@ redirect_from:
 
 ---
 
-<div style="display: flex; justify-content: space-between;">
-  <div>
-    <strong>Product Analyst, Intern</strong><br>
-    <em>Second DX Division, NTT Data</em>
-  </div>
-  <div style="text-align: right;">
-    July - Aug 2023<br>
-    Wuxi, China
-  </div>
-</div>
-<div style="margin-top: -0.7em;"></div>
-- Produced a field report on software-related companies. Exceled N1 Japanese training.
-- Highly praised by a Chinese Academy of Sciences lab director.
 
 ## XTRA INFORMATION
 
