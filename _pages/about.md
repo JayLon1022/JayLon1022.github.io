@@ -12,8 +12,6 @@ redirect_from:
 
 A Undergraduate student at [Sichuan University](https://www.scu.edu.cn/), majoring in [Cyber Science and Engineering](https://https://ccs.scu.edu.cn/).
 
- My research interest includes computer immunology, information security and machine learning.
-
 ---
 
 ## Research Interests
