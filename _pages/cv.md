@@ -124,10 +124,10 @@ redirect_from:
 
 ---
 
-**Programming:** Python · MATLAB · Java · C/C++ · Javascript · PHP
-**Development:** MySQL · HTML/CSS
-**Cybersecurity:** Sangfor Certified Security Associate - Security (SCSA-S)
-**Other Tools:** LaTeX · Markdown · AIGC tools 
+**Programming:** Python · MATLAB · Java · C/C++ · Javascript · PHP  
+**Development:** MySQL · HTML/CSS  
+**Cybersecurity:** Sangfor Certified Security Associate - Security (SCSA-S)  
+**Other Tools:** LaTeX · Markdown · AIGC tools  
 **Languages:** English (Fluent) · Mandarin (Native)
 
 ## TEACHING
