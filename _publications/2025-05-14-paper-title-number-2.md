@@ -19,8 +19,8 @@ Utilizing these properties, we propose GraMixC, a plug-and-play module that extr
 On the DSNI 16S rRNA cultivation task, GraMixC boosts coefficient of determination from 0.6 to 0.9—establishing a new state of the art.
 We further validate GraMixC with standard tabular models on other benchmarks, where it consistently outperforms single-resolution and static-feature baselines.
 
-![Figure 1: GraMixC model architecture](../images/publications/framework.png)
+![Figure 1: GraMixC model architecture](../images/publications/GraMixC/framework.png)
 
-![Figure 2: Regression performance for DSNI prediction task](../images/publications/dsmz_regression.png)
+![Figure 2: Regression performance for DSNI prediction task](../images/publications/GraMixC/dsmz_regression.png)
 
-![Figure 3: Ablation study results on DSNI prediction task](../images/publications/dsmz_ablation.png)
+![Figure 3: Ablation study results on DSNI prediction task](../images/publications/GraMixC/dsmz_ablation.png)
