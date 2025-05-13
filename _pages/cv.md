@@ -76,22 +76,6 @@ redirect_from:
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>A Bridging Anomaly Detection and Traceback System for Multi-source Heterogeneous Data in Smart Grids</strong><br>
-    <em>Leader of National College Student Innovation and Entrepreneurship Competition</em>, PI: Prof. Junjiang He<br>
-  </div>
-  <div style="text-align: right;">
-    Oct'23 - Oct'24<br>
-    Chengdu, China
-  </div>
-</div>
-<div style="margin-top: -0.7em;"></div>
-- Implemented negative selection algorithm with biological immune bridging for antibody mapping concatenation.
-- Enabled bridging detection and anomaly tracing of multi-source heterogeneous data in power grid environments.
-- Deployed a prototype system for industrial applications.
-- Produced 1 patent as side product in the early stage.
-
-<div style="display: flex; justify-content: space-between;">
-  <div>
     <strong>LLM-Based Immune Detection Method for Unknown Network Attacks in ICS Under Few-Shot Conditions</strong><br>
     <em>Bachelor Research @ SCU</em>, PI: Prof. Junjiang He<br>
   </div>
@@ -120,6 +104,22 @@ redirect_from:
 - Developed an LLM-based immune detector generation method.
 - Produced 1 CCF-A paper.
 
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <strong>A Bridging Anomaly Detection and Traceback System for Multi-source Heterogeneous Data in Smart Grids</strong><br>
+    <em>Leader of National College Student Innovation and Entrepreneurship Competition</em>, PI: Prof. Junjiang He<br>
+  </div>
+  <div style="text-align: right;">
+    Oct'23 - Oct'24<br>
+    Chengdu, China
+  </div>
+</div>
+<div style="margin-top: -0.7em;"></div>
+- Implemented negative selection algorithm with biological immune bridging for antibody mapping concatenation.
+- Enabled bridging detection and anomaly tracing of multi-source heterogeneous data in power grid environments.
+- Deployed a prototype system for industrial applications.
+- Produced 1 patent as side product in the early stage.
+
 ## SKILLS
 
 ---
@@ -129,21 +129,6 @@ redirect_from:
 **Cybersecurity:** Sangfor Certified Security Associate - Security (SCSA-S)  
 **Other Tools:** LaTeX · Markdown · AIGC tools  
 **Languages:** English (Fluent) · Mandarin (Native)
-
-## TEACHING
-
----
-
-<div style="margin-top: -1em;"></div>
-<ul>{% for post in site.teaching reversed %}
-  <div style="margin-top: -1em;"></div>
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
-
-## WORK EXPERIENCE
-
----
-
 
 ## XTRA INFORMATION
 
