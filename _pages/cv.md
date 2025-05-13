@@ -42,7 +42,7 @@ redirect_from:
 </div>
 <div style="margin-top: -0.7em;"></div>
 - GPA: 3.86/4.0; Rank: 5/159; Outstanding Student Award (23FA, 24FA), Second-Class Scholarship (23FA, 24FA)
-- Courses: Introduction to Artificial Intelligence (95), Linear Algebra (94), Discrete Mathematics (94), Big Data Analysis and Privacy Protection (93), Calculus (92), Network Attack and Defense Technology (91), Cybersecurity Technology (90), etc.
+- Courses: Introduction to Artificial Intelligence (95), Linear Algebra (94), Discrete Mathematics (94), Big Data Analysis (93), Calculus (92), Network Attack and Defense Technology (91), Cybersecurity Technology (90), etc.
 - Service: Class President, Reaserch Assistant,Student Club President, etc.
 
 ## PROJECTS
@@ -80,7 +80,7 @@ redirect_from:
     <em>Leader of National College Student Innovation and Entrepreneurship Competition</em>, PI: Prof. Junjiang He<br>
   </div>
   <div style="text-align: right;">
-    Oct 2023 - Oct 2024<br>
+    Oct'23 - Oct'24<br>
     Chengdu, China
   </div>
 </div>
@@ -96,7 +96,7 @@ redirect_from:
     <em>Bachelor Research @ SCU</em>, PI: Prof. Junjiang He<br>
   </div>
   <div style="text-align: right;">
-    Oct 2024 - Apr 2025<br>
+    Oct'24 - Apr'25<br>
     Chengdu, China
   </div>
 </div>
@@ -107,12 +107,12 @@ redirect_from:
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>Unsupervised segmentation for hyperspectral images</strong><br>
+    <strong>Mixing Configurations for Downstream Prediction</strong><br>
     <em>Intern Reaserch Assistant @ DKU</em>, PI: Prof. Shixin Xu, Prof. Dongmian Zou<br>
   </div>
   <div style="text-align: right;">
-    Oct 2024 - Apr 2025<br>
-    Chengdu, China
+    Dec'24 - Dec'25<br>
+    Kunshan, China
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
