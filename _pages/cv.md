@@ -120,6 +120,26 @@ redirect_from:
 - Deployed a prototype system for industrial applications.
 - Produced 1 patent as side product in the early stage.
 
+## Competitions
+
+---
+
+**[CUMCM'2023/NATIONAL SECOND](https://JayLon1022.github.io/files/CUMCM2023.pdf)**
+<div style="display: flex; justify-content: space-between;">
+<strong>Optimal Design of Heliostat Field Based on Nonlinear Programming</strong>
+</div>
+<div style="margin-top: -0.7em;"></div>
+- A Python method of Encrypted Traffic Detection based on Graph Convolutional Networks.
+- Replication Study of Paper "GCN-ETA: High-Efficiency Encrypted Malicious Traffic Detection"
+
+**[CUMCM'2024/Provincial Second](https://JayLon1022.github.io/files/CUMCM2024.pdf)**
+<div style="display: flex; justify-content: space-between;">
+<strong>Movement Analysis of Bench Dragon Based on the Bisection Method</strong>
+</div>
+<div style="margin-top: -0.7em;"></div>
+- A Python method of Encrypted Traffic Detection based on Graph Convolutional Networks.
+- Replication Study of Paper "GCN-ETA: High-Efficiency Encrypted Malicious Traffic Detection"
+
 ## SKILLS
 
 ---
