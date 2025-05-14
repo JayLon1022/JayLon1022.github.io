@@ -11,13 +11,12 @@ redirect_from:
 <div style="display: flex; justify-content: space-between;">
   <div>
     Email: <a href="mailto:wuhao1022@scu.edu.cn" target="_blank">wuhao1022@scu.edu.cn</a><br>
-    Website: <a href="http://JayLon1022.github.io" target="_blank">JayLon1022.github.io</a><br>
   </div>
   <div>
     Phone (China): <a href="tel:+8617751232296" target="_blank">+86 17751232296</a><br>
   </div>
   <div>
-    GitHub: <a href="http://github.com/JayLon1022" target="_blank">github.com/qqgjyx</a>
+    GitHub: <a href="http://github.com/JayLon1022" target="_blank">github.com/JayLon</a>
   </div>
   <div style="text-align: center; margin-bottom: 20px;" class="no-print">
   <a href="{{ site.baseurl }}/files/resume.pdf" class="btn btn--primary">
@@ -51,11 +50,13 @@ redirect_from:
 
 **[qqgjyx.com/mheatmap](https://qqgjyx.com/mheatmap)**
 [![GitHub stars](https://img.shields.io/github/stars/qqgjyx/mheatmap)](https://github.com/qqgjyx/mheatmap/stargazers)
+
 <div style="margin-top: -0.7em;"></div>
 - A Python package for advanced heatmap visualization and matrix analysis, featuring mosaic heatmap, confusion matrix post-processing, and spectral reordering capabilities.
 
 **[JayLon1022/GCN4ETD](https://github.com/JayLon1022/GCN4ETD)**
 [![GitHub stars](https://img.shields.io/github/stars/JayLon1022/GCN4ETD)](https://github.com/JayLon1022/GCN4ETD/stargazers)
+
 <div style="margin-top: -0.7em;"></div>
 - A Python method of Encrypted Traffic Detection based on Graph Convolutional Networks.
 - Replication Study of Paper "GCN-ETA: High-Efficiency Encrypted Malicious Traffic Detection"
@@ -125,6 +126,7 @@ redirect_from:
 ---
 
 **[National Second in CUMCM 2023 ](https://JayLon1022.github.io/files/CUMCM2023.pdf)**
+
 <div style="display: flex; justify-content: space-between;">
 <strong><em>Optimal Design of Heliostat Field Based on Nonlinear Programming</em></strong>
 </div>
@@ -133,6 +135,7 @@ redirect_from:
 - Replication Study of Paper "GCN-ETA: High-Efficiency Encrypted Malicious Traffic Detection"
 
 **[Provincial Second in CUMCM 2024](https://JayLon1022.github.io/files/CUMCM2024.pdf)**
+
 <div style="display: flex; justify-content: space-between;">
 <strong><em>Movement Analysis of Bench Dragon Based on the Bisection Method</em></strong>
 </div>
@@ -144,10 +147,10 @@ redirect_from:
 
 ---
 
-**Programming:** Python · MATLAB · Java · C/C++ · Javascript · PHP  
-**Development:** MySQL · HTML/CSS  
-**Cybersecurity:** Sangfor Certified Security Associate - Security (SCSA-S)  
-**Other Tools:** LaTeX · Markdown · AIGC tools  
+**Programming:** Python · MATLAB · Java · C/C++ · Javascript · PHP
+**Development:** MySQL · HTML/CSS
+**Cybersecurity:** Sangfor Certified Security Associate - Security (SCSA-S)
+**Other Tools:** LaTeX · Markdown · AIGC tools
 **Languages:** English (Fluent) · Mandarin (Native)
 
 ## XTRA INFORMATION
@@ -155,4 +158,3 @@ redirect_from:
 ---
 
 - Interests: Music, ACG, gym.
-
