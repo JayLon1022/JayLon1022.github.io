@@ -109,7 +109,7 @@ redirect_from:
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>A Bridging Anomaly Detection and Traceback System for Multi-source Heterogeneous Data in Smart Grids</strong><br>
-    <em>Leader of National College Student Innovation and Entrepreneurship Competition</em>, PI: Prof. Junjiang He<br>
+    <em>National College Student Innovation and Entrepreneurship Competition</em>, PI: Hao Wu<br>
   </div>
   <div style="text-align: right;">
     Oct'23 - Oct'24<br>
@@ -148,7 +148,7 @@ redirect_from:
 
 ---
 
-**Programming:** Python · MATLAB · Java · C/C++ · Javascript · PHP
+**Programming:** Python · MATLAB · Java · C/C++ · Javascript · PHP 
 **Development:** MySQL · HTML/CSS
 **Cybersecurity:** Sangfor Certified Security Associate - Security (SCSA-S)
 **Other Tools:** LaTeX · Markdown · AIGC tools
