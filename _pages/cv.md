@@ -126,7 +126,7 @@ redirect_from:
 
 **[National Second in CUMCM 2023 ](https://JayLon1022.github.io/files/CUMCM2023.pdf)**
 <div style="display: flex; justify-content: space-between;">
-<strong><em>Optimal Design of Heliostat Field Based on Nonlinear Programming</strong>
+<strong><em>Optimal Design of Heliostat Field Based on Nonlinear Programming</em></strong>
 </div>
 <div style="margin-top: -0.7em;"></div>
 - A Python method of Encrypted Traffic Detection based on Graph Convolutional Networks.
@@ -134,7 +134,7 @@ redirect_from:
 
 **[Provincial Second in CUMCM 2024](https://JayLon1022.github.io/files/CUMCM2024.pdf)**
 <div style="display: flex; justify-content: space-between;">
-<strong>Movement Analysis of Bench Dragon Based on the Bisection Method</strong>
+<strong><em>Movement Analysis of Bench Dragon Based on the Bisection Method</em></strong>
 </div>
 <div style="margin-top: -0.7em;"></div>
 - A Python method of Encrypted Traffic Detection based on Graph Convolutional Networks.
