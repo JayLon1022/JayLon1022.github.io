@@ -87,9 +87,9 @@ redirect_from:
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Proposed a prompt-based LLM few-shot feature fitting method.
-- Developed an LLM-based immune detector generation method.
-- Published 1 CCF-C paper.
+- Investigated spatial analysis capabilities of LLMs to guide antibody detector generation in NSA.
+- Developed a method enabling effective detection of unknown attacks under few-shot conditions.
+- Authored a research paper received in 2025 Internation Conference On Intelligent Computing (ICIC).
 
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -148,11 +148,11 @@ redirect_from:
 
 ---
 
-**Programming:** Python · MATLAB · Java · C/C++ · Javascript · PHP  
-**Development:** MySQL · HTML/CSS  
-**Cybersecurity:** Sangfor Certified Security Associate - Security (SCSA-S)  
-**Other Tools:** LaTeX · Markdown · AIGC tools  
-**Languages:** English (Fluent) · Mandarin (Native)  
+**Programming:** Python · MATLAB · Java · C/C++ · Javascript · PHP
+**Development:** MySQL · HTML/CSS
+**Cybersecurity:** Sangfor Certified Security Associate - Security (SCSA-S)
+**Other Tools:** LaTeX · Markdown · AIGC tools
+**Languages:** English (Fluent) · Mandarin (Native)
 
 ## XTRA INFORMATION
 
