@@ -40,9 +40,10 @@ redirect_from:
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- GPA: 3.86/4.0; Rank: 5/159; Outstanding Student Award (23FA, 24FA), Second-Class Scholarship (23FA, 24FA)
+- GPA: 3.86/4.0;  Rank: 5/159.
 - Courses: Introduction to Artificial Intelligence (95), Linear Algebra (94), Discrete Mathematics (94), Big Data Analysis (93), Calculus (92), Network Attack and Defense Technology (91), Cybersecurity Technology (90), etc.
 - Service: Class President, Reaserch Assistant,Student Club President, etc.
+- Honors: Outstanding Student Award (23FA, 24FA), Second-Class Scholarship (23FA, 24FA).
 
 ## PROJECTS
 
