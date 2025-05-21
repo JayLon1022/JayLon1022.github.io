@@ -6,7 +6,6 @@ author_profile: true
 redirect_from:
   - /projects.html
 ---
-
 ## **[qqgjyx.com/mheatmap](https://qqgjyx.com/mheatmap)**
 
 [![GitHub stars](https://img.shields.io/github/stars/qqgjyx/mheatmap?style=for-the-badge&logo=github&color=yellow)](https://github.com/qqgjyx/mheatmap/stargazers)
@@ -16,7 +15,7 @@ A Python package for advanced heatmap visualization and matrix analysis, featuri
 
 ## **[JayLon1022.com/GCN4ETD](https://JayLon1022.com/GCN4ETD)**
 
-[![GitHub stars](https://img.shields.io/github/stars/qqgjyx/pysgtsnepi?style=for-the-badge&logo=github&color=yellow)](https://github.com/qqgjyx/pysgtsnepi/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/JayLon1022/GCN4ETD?style=for-the-badge&logo=github&color=yellow)](https://github.com/qqgjyx/pysgtsnepi/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/qqgjyx/pysgtsnepi?style=for-the-badge&logo=github&color=blue)](https://github.com/qqgjyx/pysgtsnepi/network/members)
 
 A Python method of Encrypted Traffic Detection based on Graph Convolutional Networks.
