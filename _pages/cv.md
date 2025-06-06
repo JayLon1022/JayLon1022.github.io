@@ -94,7 +94,7 @@ redirect_from:
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Mixing Configurations for Downstream Prediction</strong><br>
-    <em>Intern Reaserch Assistant @ DKU</em>, PI: Prof. Shixin Xu, Prof. Dongmian Zou<br>
+    <em>Intern Research Assistant @ DKU</em>, PI: Prof. Shixin Xu, Prof. Dongmian Zou<br>
   </div>
   <div style="text-align: right;">
     Dec'24 - Dec'25<br>
