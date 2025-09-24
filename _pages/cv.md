@@ -40,7 +40,7 @@ redirect_from:
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- GPA: 3.86/4.0;  Rank: 5/159.
+- GPA: 3.86/4.0;  Rank: 1/161.
 - Courses: Introduction to Artificial Intelligence (95), Linear Algebra (94), Discrete Mathematics (94), Big Data Analysis (93), Calculus (92), Network Attack and Defense Technology (91), Cybersecurity Technology (90), etc.
 - Service: Class President, Reaserch Assistant,Student Club President, etc.
 - Honors: Outstanding Student Award (23FA, 24FA), Second-Class Scholarship (23FA, 24FA).
@@ -55,7 +55,15 @@ redirect_from:
 <div style="margin-top: -0.7em;"></div>
 - A Python package for advanced heatmap visualization and matrix analysis, featuring mosaic heatmap, confusion matrix post-processing, and spectral reordering capabilities.
 
+**[JayLon1022/llmDataG](https://qqgjyx.com/llmDataG)**
+
+[![GitHub stars](https://img.shields.io/github/stars/JayLon1022/llmDataG)](https://github.com/qqgjyx/mheatmap/stargazers)
+
+<div style="margin-top: -0.7em;"></div>
+- High-Quality Tabular Data Generation with Large Language Models
+
 **[JayLon1022/GCN4ETD](https://github.com/JayLon1022/GCN4ETD)**
+
 [![GitHub stars](https://img.shields.io/github/stars/JayLon1022/GCN4ETD)](https://github.com/JayLon1022/GCN4ETD/stargazers)
 
 <div style="margin-top: -0.7em;"></div>
