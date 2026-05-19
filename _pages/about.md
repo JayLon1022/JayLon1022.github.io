@@ -36,4 +36,4 @@ I am a research assistant at SCU with Prof.\ Tao Li and Prof.\ Junjiang He, and 
 
 You can find my CV here: [English CV]({{ site.baseurl }}/files/resume.pdf) · [Chinese CV]({{ site.baseurl }}/files/resume_zh.pdf).
 
-[Email](mailto:wuhao1022@stu.scu.edu.cn) · [GitHub](https://github.com/JayLon1022)
+[Email](mailto:wuhao1022@stu.scu.edu.cn) · [GitHub](https://github.com/JayLon1022) · [Google Scholar](https://scholar.google.com/citations?user=c3Mj5bIAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0009-5792-3790) · [OpenReview](https://openreview.net/profile?id=~Hao_Wu87) · [arXiv](https://arxiv.org/a/0009-0009-5792-3790)
