@@ -44,8 +44,9 @@ h1 {
   letter-spacing: 0.5px;
 }
 h1 .cn {
-  font-size: 0.85em;
-  margin-left: 14px;
+  font-size: 1.05em;
+  font-weight: 500;
+  margin-left: 18px;
   color: var(--text);
 }
 
