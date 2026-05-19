@@ -135,10 +135,11 @@ p { margin: 0.6em 0; text-align: justify; }
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
 .exp-logo {
-  width: 64px;
-  height: 64px;
+  width: auto;
+  height: 56px;
+  max-width: 88px;
   object-fit: contain;
-  flex: 0 0 64px;
+  flex: 0 0 auto;
   border-radius: 6px;
 }
 .exp-info { flex: 1; min-width: 0; }
