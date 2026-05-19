@@ -1,7 +1,11 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "mheatmap — Proportional Heatmaps &amp; Matrix Analysis"
+excerpt: "Python toolkit for mosaic heatmaps, confusion-matrix post-processing, and spectral reordering. 683★ on GitHub.<br/>[GitHub](https://github.com/qqgjyx/mheatmap)"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+**mheatmap** is a Python package for advanced heatmap visualization and matrix analysis. Features include mosaic (proportional) heatmaps, confusion-matrix post-processing, and spectral reordering with label alignment.
+
+- GitHub: [qqgjyx/mheatmap](https://github.com/qqgjyx/mheatmap) (683★)
+- Role: 2nd contributor
+- Related paper: *MHeatmap — Two-Walk Laplacian Reordering and Mosaic Layout for Rectangular Matrix Visualization* (under review)

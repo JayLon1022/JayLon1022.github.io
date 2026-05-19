@@ -1,0 +1,12 @@
+---
+title: "LLM-Based Immune Detection Method for Unknown Network Attacks in ICS Under Few-Shot Conditions"
+collection: publications
+category: conferences
+permalink: /publication/2025-icic-llm-immune
+excerpt: 'An LLM-guided artificial immune detector for unknown attacks on ICS networks under few-shot conditions.'
+date: 2025-04-08
+venue: 'International Conference on Intelligent Computing (ICIC 2025)'
+paperurl: 'http://JayLon1022.github.io/files/LLM-Based_Immune_Detection_Method_for_Unknown_Network_Attacks_in_ICS_Under_Few-Shot_Conditions.pdf'
+citation: '<b>Hao Wu</b>, Jiangchuan Chen, Wengang Ma, Ping He, Xiaolong Lan, Tao Li and Junjiang He. &quot;LLM-Based Immune Detection Method for Unknown Network Attacks in ICS Under Few-Shot Conditions.&quot; <i>International Conference on Intelligent Computing (ICIC 2025)</i>.'
+---
+The rapidly evolving landscape of unknown network attacks has significantly expanded the range of cyber threats. Existing intrusion detection systems (IDS) primarily rely on large amounts of known attack samples for model training and can only effectively detect known network attacks, particularly in industrial control system (ICS) environments, where obtaining attack samples is extremely difficult. In this paper, inspired by artificial immune systems (AIS) and large language models (LLM), we propose an LLM-based immune detection method for identifying unknown network attacks in ICS under few-shot conditions. We first map network attack data to the antigen space of the artificial immune system. Then, we design a specialized prompt template to guide the LLM in learning and analyzing the spatial distribution features of nonself antigens, thereby capturing the latent space feature distribution information. Finally, we generate immune space detectors under the guidance of LLM and activate them through tolerance mechanisms. Extensive experiments on multiple datasets demonstrate that our method exhibits superior performance in detecting both known and unknown cyberattacks, significantly outperforming current mainstream IDS research achievements.

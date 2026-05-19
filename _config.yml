@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Hao Wu"
 title_separator          : "-"
 name                     : &name "Hao Wu"
-description              : &description "a third year undergraduate student from Sichuan University."
+description              : &description "Senior undergraduate at Sichuan University; incoming M.S. at Peking University (Sept. 2026). Research in artificial immune systems, intrusion detection, and machine learning for science."
 url                      : https://JayLon1022.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JayLon1022/JayLon1022.github.io"
@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Hao Wu"
   pronouns         : #"he/him" 
-  bio              : "CS Junior"
+  bio              : "B.E. @ SCU → M.S. @ PKU (2026)"
   location         : "Chengdu, China"
-  employer         : "Sichuan University"
+  employer         : "Sichuan University → Peking University"
   uri              : # URL
   email            : "wuhao1022@stu.scu.edu.cn" 
 

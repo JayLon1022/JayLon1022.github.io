@@ -8,20 +8,23 @@ redirect_from:
 ---
 {% include base_path %}
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
   <div>
-    Email: <a href="mailto:wuhao1022@scu.edu.cn" target="_blank">wuhao1022@scu.edu.cn</a><br>
+    Email: <a href="mailto:wuhao1022@stu.scu.edu.cn">wuhao1022@stu.scu.edu.cn</a><br>
   </div>
   <div>
-    Phone (China): <a href="tel:+8617751232296" target="_blank">+86 17751232296</a><br>
+    Phone (China): <a href="tel:+8617751232296">+86 17751232296</a><br>
   </div>
   <div>
-    GitHub: <a href="http://github.com/JayLon1022" target="_blank">github.com/JayLon</a>
+    GitHub: <a href="https://github.com/JayLon1022" target="_blank">github.com/JayLon1022</a>
   </div>
   <div style="text-align: center; margin-bottom: 20px;" class="no-print">
-  <a href="{{ site.baseurl }}/files/resume.pdf" class="btn btn--primary">
-    <i class="fas fa-file-pdf" aria-hidden="true"></i> Open pdf
-  </a>
+    <a href="{{ site.baseurl }}/files/resume.pdf" class="btn btn--primary">
+      <i class="fas fa-file-pdf" aria-hidden="true"></i> English PDF
+    </a>
+    <a href="{{ site.baseurl }}/files/resume_zh.pdf" class="btn btn--primary">
+      <i class="fas fa-file-pdf" aria-hidden="true"></i> 中文 PDF
+    </a>
   </div>
 </div>
 
@@ -31,139 +34,103 @@ redirect_from:
 
 <div style="display: flex; justify-content: space-between;">
   <div>
+    <strong>Peking University (PKU)</strong><br>
+    <em>M.S., School of Software &amp; Microelectronics</em><br>
+  </div>
+  <div style="text-align: right;">
+    Sept. 2026 – Jun. 2029<br>
+    Beijing, China
+  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-top: 0.5em;">
+  <div>
     <strong>Sichuan University (SCU)</strong><br>
-    <em>B.S. in Cyber Science and Engineering</em><br>
+    <em>B.E., School of Cyber Science and Engineering</em><br>
   </div>
   <div style="text-align: right;">
-    2022 - 2026<br>
+    Sept. 2022 – Jun. 2026<br>
     Chengdu, China
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- GPA: 3.86/4.0;  Rank: 1/161.
-- Courses: Introduction to Artificial Intelligence (95), Linear Algebra (94), Discrete Mathematics (94), Big Data Analysis (93), Calculus (92), Network Attack and Defense Technology (91), Cybersecurity Technology (90), etc.
-- Service: Class President, Reaserch Assistant,Student Club President, etc.
-- Honors: Outstanding Student Award (23FA, 24FA), Second-Class Scholarship (23FA, 24FA).
+- **Rank: 1 / 161; GPA: 3.85 / 4.0**
 
-## PROJECTS
+## PUBLICATIONS &amp; OPEN-SOURCE SOFTWARE
 
 ---
 
-**[qqgjyx.com/mheatmap](https://qqgjyx.com/mheatmap)**
-[![GitHub stars](https://img.shields.io/github/stars/qqgjyx/mheatmap)](https://github.com/qqgjyx/mheatmap/stargazers)
+<small>† Equal contribution. 6 additional manuscripts under review (2× NeurIPS, 1× ECCV, 2× VIS, 1× ASOC).</small>
 
-<div style="margin-top: -0.7em;"></div>
-- A Python package for advanced heatmap visualization and matrix analysis, featuring mosaic heatmap, confusion matrix post-processing, and spectral reordering capabilities.
+- Juntang Wang†, Yihan Wang†, **Hao Wu**†, Jiayu Gao, Shixin Xu, and Dongmian Zou. "StageGuard: Physiologically Constrained Sleep Staging." *KDD 2026*.
+- Juntang Wang†, **Hao Wu**†, Yihan Wang†, Dongmian Zou, and Shixin Xu. "Mixing Configurations for Downstream Prediction." [*ICML 2026*](https://icml.cc/virtual/2026/poster/63010).
+- **Hao Wu**, Jiangchuan Chen, Wengang Ma, Ping He, Xiaolong Lan, Tao Li, and Junjiang He. "LLM-Based Immune Detection Method for Unknown Network Attacks in ICS Under Few-Shot Conditions." [*ICIC 2025*](http://poster-openaccess.com/article_detail.php?paper_id=4151&conf=ICIC&year=2025).
+- Juntang Wang†, Yihan Wang†, **Hao Wu**†, Dongmian Zou, and Shixin Xu. "Brain-Inspired Perspective on Configurations: Unsupervised Similarity and Early Cognition." [*BICS 2025*](https://arxiv.org/abs/2510.19229).
+- **mheatmap** &nbsp;|&nbsp; [GitHub](https://github.com/qqgjyx/mheatmap) &nbsp;|&nbsp; 683★ &nbsp;|&nbsp; Proportional heatmap visualization &amp; matrix analysis with label alignment &nbsp;|&nbsp; 2nd contributor.
+- **llmDataG** &nbsp;|&nbsp; [GitHub](https://github.com/JayLon1022/llmDataG) &nbsp;|&nbsp; 40★ &nbsp;|&nbsp; High-quality tabular data augmentation via LLMs &nbsp;|&nbsp; 1st contributor.
+- **GCN4ETD** &nbsp;|&nbsp; [GitHub](https://github.com/JayLon1022/GCN4ETD) &nbsp;|&nbsp; 11★ &nbsp;|&nbsp; Encrypted traffic detection via graph convolutional networks &nbsp;|&nbsp; 1st contributor.
 
-**[JayLon1022/llmDataG](https://qqgjyx.com/llmDataG)**
-
-[![GitHub stars](https://img.shields.io/github/stars/JayLon1022/llmDataG)](https://github.com/qqgjyx/mheatmap/stargazers)
-
-<div style="margin-top: -0.7em;"></div>
-- High-Quality Tabular Data Generation with Large Language Models
-
-**[JayLon1022/GCN4ETD](https://github.com/JayLon1022/GCN4ETD)**
-
-[![GitHub stars](https://img.shields.io/github/stars/JayLon1022/GCN4ETD)](https://github.com/JayLon1022/GCN4ETD/stargazers)
-
-<div style="margin-top: -0.7em;"></div>
-- A Python method of Encrypted Traffic Detection based on Graph Convolutional Networks.
-- Replication Study of Paper "GCN-ETA: High-Efficiency Encrypted Malicious Traffic Detection"
-
-## PUBLICATIONS
-
----
-
-<div style="margin-top: -1em;"></div>
-<ul>{% for post in site.publications reversed %}
-  <div style="margin-top: -1em;"></div>
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
-
-## RESEARCH EXPERIENCE
+## RESEARCH &amp; WORK EXPERIENCE
 
 ---
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>LLM-Based Immune Detection Method for Unknown Network Attacks in ICS Under Few-Shot Conditions</strong><br>
-    <em>Bachelor Research @ SCU</em>, PI: Prof. Junjiang He<br>
+    <strong>Computer Immunity · Network Intrusion Detection · Noisy-Label Learning</strong><br>
+    <em>Sichuan University</em>, Research Assistant; Advisors: Prof. Tao Li, Prof. Junjiang He<br>
   </div>
   <div style="text-align: right;">
-    Oct'24 - Apr'25<br>
+    Jul. 2023 – Present<br>
     Chengdu, China
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Investigated spatial analysis capabilities of LLMs to guide antibody detector generation in NSA.
-- Developed a method enabling effective detection of unknown attacks under few-shot conditions.
-- Authored a research paper received in 2025 Internation Conference On Intelligent Computing (ICIC).
+- Contributed to the National Key R&D Program project; designed an antigen-adaptive evolution algorithm based on immune gene mechanisms, improving detector diversity and attack-feature coverage.
+- Designed an LLM-based artificial immune algorithm for few-shot unknown-attack detection via prompt-guided antibody generation and immune-tolerance-based detector filtering.
+- Tackled noisy labels in encrypted traffic via a multi-resolution community-structure method, then encoded community configurations as structural features to improve downstream robustness.
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between; margin-top: 0.5em;">
   <div>
-    <strong>Mixing Configurations for Downstream Prediction</strong><br>
-    <em>Intern Research Assistant @ DKU</em>, PI: Prof. Shixin Xu, Prof. Dongmian Zou<br>
+    <strong>Unsupervised Representation · Biomedical AI · Graph &amp; Matrix Visualization</strong><br>
+    <em>Duke Kunshan University</em>, Research Assistant; Advisors: Prof. Shixin Xu, Prof. Dongmian Zou<br>
   </div>
   <div style="text-align: right;">
-    Dec'24 - Dec'25<br>
+    Dec. 2024 – Present<br>
     Kunshan, China
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Proposed a prompt-based LLM few-shot feature fitting method.
-- Developed an LLM-based immune detector generation method.
-- Produced 1 CCF-A paper.
+- Engaged in multiple interdisciplinary research directions and produced several publications and projects.
+- Developed MixConfig, DSNI, MINN, PPIDM-Π, StageGuard, DriftNeRF, MHeatmap, and Lambda Lens.
+- Contributed to industry projects on robotic-arm thermal-drift compensation and adhesive-dispensing quality prediction with parameter recommendation.
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between; margin-top: 0.5em;">
   <div>
-    <strong>A Bridging Anomaly Detection and Traceback System for Multi-source Heterogeneous Data in Smart Grids</strong><br>
-    <em>National College Student Innovation and Entrepreneurship Competition</em>, PI: Hao Wu<br>
+    <strong>RAG-based Question-Answering Service</strong><br>
+    <em>Topsec Networks</em>, Product R&D<br>
   </div>
   <div style="text-align: right;">
-    Oct'23 - Oct'24<br>
+    Jun. 2025 – Jul. 2025<br>
     Chengdu, China
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Implemented negative selection algorithm with biological immune bridging for antibody mapping concatenation.
-- Enabled bridging detection and anomaly tracing of multi-source heterogeneous data in power grid environments.
-- Deployed a prototype system for industrial applications.
-- Produced 1 patent as side product in the early stage.
+- Built a LangChain + Faiss RAG pipeline with chunking, vector indexing, retrieval, and context-augmented generation.
 
-## Competitions
+## HONORS &amp; COMPETITIONS
 
 ---
 
-**[National Second in CUMCM 2023 ](https://JayLon1022.github.io/files/CUMCM2023.pdf)**
+- Sichuan Province Outstanding Graduate.
+- National College Student Innovation &amp; Entrepreneurship Program — *National Project Leader*.
+- China Undergraduate Mathematical Contest in Modeling — *National Second Prize*.
+- China Undergraduate Mathematical Contest in Modeling — *Sichuan Second Prize*.
+- China Undergraduate Mathematics Competition — *Third Prize*.
 
-<div style="display: flex; justify-content: space-between;">
-<strong><em>Optimal Design of Heliostat Field Based on Nonlinear Programming</em></strong>
-</div>
-<div style="margin-top: -0.7em;"></div>
-- A Python method of Encrypted Traffic Detection based on Graph Convolutional Networks.
-- Replication Study of Paper "GCN-ETA: High-Efficiency Encrypted Malicious Traffic Detection"
-
-**[Provincial Second in CUMCM 2024](https://JayLon1022.github.io/files/CUMCM2024.pdf)**
-
-<div style="display: flex; justify-content: space-between;">
-<strong><em>Movement Analysis of Bench Dragon Based on the Bisection Method</em></strong>
-</div>
-<div style="margin-top: -0.7em;"></div>
-- A Python method of Encrypted Traffic Detection based on Graph Convolutional Networks.
-- Replication Study of Paper "GCN-ETA: High-Efficiency Encrypted Malicious Traffic Detection"
-
-## SKILLS
+## ADDITIONAL INFORMATION
 
 ---
 
-**Programming:** Python · MATLAB · Java · C/C++ · Javascript · PHP
-**Development:** MySQL · HTML/CSS
-**Cybersecurity:** Sangfor Certified Security Associate - Security (SCSA-S)
-**Other Tools:** LaTeX · Markdown · AIGC tools
-**Languages:** English (Fluent) · Mandarin (Native)
-
-## XTRA INFORMATION
-
----
-
-- Interests: Music, ACG, gym.
+- **Service:** Grade Leader of Class of 2022; President of St.808 Student Association; Lead in SCU Promotional MV.
+- **Skills:** Python, SQL, C; scikit-learn, PyTorch, NumPy, pandas; Git, LaTeX; SCSA-S.
+- **Languages:** English (Fluent) · Mandarin (Native).
