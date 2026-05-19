@@ -1,6 +1,6 @@
 ---
 permalink: /
-author_profile: true
+author_profile: false
 stylesheets:
   - /assets/css/home.css
 redirect_from:
@@ -8,11 +8,26 @@ redirect_from:
   - /about.html
 ---
 
-<h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> I'm Hao Wu (吴昊).</h1>
+<div class="hero">
+  <img src="images/profile.png" alt="Hao Wu" class="hero-photo">
+  <div class="hero-text">
+    <h1 class="hero-name">Hao Wu <span class="hero-cn">(吴昊)</span></h1>
+    <p class="hero-tagline">Senior undergraduate at <a href="https://www.scu.edu.cn/">Sichuan University</a>; incoming M.S. at <a href="https://www.ss.pku.edu.cn/">Peking University</a> (Sept. 2026).</p>
+    <p class="hero-links">
+      <a href="mailto:wuhao1022@stu.scu.edu.cn">Email</a> ·
+      <a href="/files/resume.pdf">CV</a> ·
+      <a href="https://scholar.google.com/citations?user=c3Mj5bIAAAAJ&hl=en">Scholar</a> ·
+      <a href="https://github.com/JayLon1022">GitHub</a> ·
+      <a href="https://orcid.org/0009-0009-5792-3790">ORCID</a> ·
+      <a href="https://openreview.net/profile?id=~Hao_Wu87">OpenReview</a> ·
+      <a href="https://arxiv.org/a/0009-0009-5792-3790">arXiv</a>
+    </p>
+  </div>
+</div>
 
-I am a senior undergraduate at <a href="https://www.scu.edu.cn/"><strong>Sichuan University</strong></a>, majoring in Cyber Science and Engineering (Rank&nbsp;1&nbsp;/&nbsp;161, GPA&nbsp;3.85&nbsp;/&nbsp;4.0). In Sept.&nbsp;2026 I will join the <a href="https://www.ss.pku.edu.cn/"><strong>School of Software &amp; Microelectronics, Peking University</strong></a> as an M.S. student.
+I am a senior undergraduate at <a href="https://www.scu.edu.cn/"><strong>Sichuan University</strong></a>, majoring in Cyber Science and Engineering (Rank&nbsp;1&nbsp;/&nbsp;161, GPA&nbsp;3.85&nbsp;/&nbsp;4.0). I work as a research assistant at SCU (advised by Prof.&nbsp;Tao Li and Prof.&nbsp;Junjiang He) and at <a href="https://www.dukekunshan.edu.cn/"><strong>Duke Kunshan University</strong></a> (advised by Prof.&nbsp;Shixin Xu and Prof.&nbsp;Dongmian Zou).
 
-I work as a research assistant at SCU (advised by Prof.&nbsp;Tao Li and Prof.&nbsp;Junjiang He) and at <a href="https://www.dukekunshan.edu.cn/"><strong>Duke Kunshan University</strong></a> (advised by Prof.&nbsp;Shixin Xu and Prof.&nbsp;Dongmian Zou). My research lives at the intersection of <em>artificial immune systems</em>, <em>intrusion detection under noisy / few-shot labels</em>, and <em>machine learning for science</em> (biomedical signals, configuration-based representation learning, matrix &amp; graph visualization).
+My research lives at the intersection of <em>artificial immune systems</em>, <em>intrusion detection under noisy / few-shot labels</em>, and <em>machine learning for science</em> — biomedical signals, configuration-based representation learning, and matrix &amp; graph visualization.
 
 Feel free to reach out if you are interested in collaboration or potential opportunities.
 
