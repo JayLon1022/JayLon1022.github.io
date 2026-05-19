@@ -426,25 +426,12 @@
   .hero-name { font-size: 1.6em; }
 }
 
-/* Remove masthead spacing now that nav is gone */
-#main {
-  padding-top: 0 !important;
-  max-width: 860px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* Cancel susy's reserved sidebar gutter; let .page fill #main and center its content */
-.page {
-  width: 100% !important;
-  float: none !important;
-  margin: 0 auto !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-.page__inner-wrap {
+/* Standalone home layout (bypasses theme's susy grid) */
+.home-wrap {
   max-width: 820px;
-  margin: 0 auto !important;
-  float: none !important;
+  margin: 2em auto 4em;
+  padding: 0 1.25em;
+}
+.home-content {
+  width: 100%;
 }
