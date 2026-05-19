@@ -123,6 +123,47 @@ p { margin: 0.6em 0; text-align: justify; }
 .pubs .pub-meta-row { margin: 2px 0; }
 .pubs em.me { font-style: normal; text-decoration: underline; font-weight: 700; }
 
+/* ---- experience cards ---- */
+.exp { display: flex; flex-direction: column; gap: 14px; }
+.exp-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #f6f6f6;
+  border-radius: 12px;
+  padding: 16px 22px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.exp-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  flex: 0 0 64px;
+  border-radius: 6px;
+}
+.exp-info { flex: 1; min-width: 0; }
+.exp-org {
+  font-weight: 700;
+  font-size: 1.05em;
+  margin-bottom: 2px;
+}
+.exp-date {
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.95em;
+  margin-bottom: 4px;
+}
+.exp-role { font-size: 0.97em; }
+.exp-link {
+  color: #ca6f6f;
+  font-style: italic;
+  text-decoration: none;
+}
+@media (max-width: 720px) {
+  .exp-card { padding: 14px 16px; gap: 14px; }
+  .exp-logo { width: 48px; height: 48px; flex: 0 0 48px; }
+}
+
 /* ---- simple lists ---- */
 ul.plain { list-style: disc; padding-left: 22px; }
 ul.plain li { margin-bottom: 6px; }
