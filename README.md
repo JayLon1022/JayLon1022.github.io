@@ -1,89 +1,209 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+﻿# WowPage
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
+WowPage is a clean, responsive academic homepage built with Jekyll and adapted from the Academic Pages theme. It is designed for students, researchers, and engineers who want a personal website for introducing their profile, publications, projects, experience, awards, talks, services, and CV.
 
-# Getting Started
+Template is originated from [selen-suyue.github.io](https://selen-suyue.github.io/).
+Example：[wd7ang.github.io](https://wd7ang.github.io).
+## Features
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+- Academic-style homepage with author profile sidebar
+- Single-page navigation for news, experience, publications, projects, awards, services, and talks
+- Custom homepage styling through `assets/css/home.css`
+- Publication filtering on the homepage
+- CV link support through the navigation menu
+- Social profile fields managed from `_config.yml`
+- GitHub Pages compatible Jekyll setup
+- Sitemap and feed support through Jekyll plugins
 
-See more info at https://academicpages.github.io/
+## Project Structure
 
-## Running locally
-
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
-
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
-
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and open `.gitignore` then add `vendor` inside it.
-
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
-
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
-
-```bash
-docker compose up
+```text
+.
+├── _config.yml              # Main site configuration and author metadata
+├── _data/
+│   ├── navigation.yml       # Header navigation links
+│   ├── authors.yml          # Optional author data
+│   └── ui-text.yml          # Theme UI text
+├── _includes/               # Reusable Liquid partials
+├── _layouts/                # Page layout templates
+├── _pages/                  # Main site pages, including the homepage
+├── _sass/                   # Theme Sass source files
+├── assets/                  # CSS, JavaScript, and theme assets
+├── images/                  # Profile, logos, publication images, and other media
+├── markdown_generator/      # Helper scripts/templates for generating markdown content
+├── talkmap/                 # Talk map page assets
+├── Gemfile                  # Ruby/Jekyll dependencies
+├── package.json             # JavaScript build dependencies and scripts
+└── LICENSE
 ```
 
-You should now be able to access the website from `localhost:4000`.
+## Getting Started
 
-# Maintenance
+### Prerequisites
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+Install the following tools before running the site locally:
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+- Ruby and Bundler
+- Node.js and npm
+- Git
 
-## Bugfixes and enhancements
+### Installation
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+Clone the repository and install dependencies:
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+```bash
+git clone <your-repository-url>
+cd WowPage
+bundle install
+npm install
+```
 
----
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
+### Run Locally
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+Start the Jekyll development server:
+
+```bash
+bundle exec jekyll serve
+```
+
+Then open the local URL shown in the terminal, usually:
+
+```text
+http://127.0.0.1:4000/
+```
+
+### Build the Site
+
+Generate the static site:
+
+```bash
+bundle exec jekyll build
+```
+
+The generated files will be written to `_site/`.
+
+## Customization
+
+### Basic Site Information
+
+Edit `_config.yml` to update the site title, description, URL, author name, biography, affiliation, location, email, avatar, and social links.
+
+Important fields include:
+
+```yaml
+title: "WowPage"
+name: "Your Name"
+description: "A clean academic homepage template."
+author:
+  avatar: "1.png"
+  name: "Your Name"
+  bio: "Student and researcher."
+  location: "City, Country"
+  employer: "Institution or Company"
+  email: "name@example.com"
+```
+
+### Homepage Content
+
+The homepage content is mainly maintained in:
+
+```text
+_pages/about.md
+```
+
+Update this file to edit sections such as news, experience, publications, projects, awards, services, talks, and the introductory text.
+
+### Navigation
+
+Edit the navigation menu in:
+
+```text
+_data/navigation.yml
+```
+
+For example:
+
+```yaml
+main:
+  - title: "News"
+    url: "/#news"
+  - title: "Experience"
+    url: "/#experience"
+  - title: "Pub"
+    url: "/#publications"
+  - title: "CV-En"
+    url: "/files/weidongtang_resume.pdf"
+```
+
+### Images and Media
+
+Place profile photos, organization logos, project images, publication thumbnails, and other visual assets in:
+
+```text
+images/
+```
+
+Reference them from pages using paths such as:
+
+```html
+<img src="images/example.png" alt="Example image">
+```
+
+### JavaScript and CSS
+
+Custom homepage styles can be edited in:
+
+```text
+assets/css/home.css
+```
+
+JavaScript assets are built with npm:
+
+```bash
+npm run build:js
+```
+
+## Deployment
+
+This site is compatible with GitHub Pages.
+
+A typical deployment workflow is:
+
+1. Push the repository to GitHub.
+2. Open the repository settings on GitHub.
+3. Enable GitHub Pages.
+4. Select the branch and folder used for deployment.
+5. Update `url`, `baseurl`, and `repository` in `_config.yml` if needed.
+
+For a user or organization site, the repository is commonly named:
+
+```text
+<username>.github.io
+```
+
+For a project site, set `baseurl` to the repository name:
+
+```yaml
+url: "https://<username>.github.io"
+baseurl: "/<repository-name>"
+```
+
+## Content Checklist
+
+Before publishing, consider updating:
+
+- Author name, bio, institution, location, and email in `_config.yml`
+- Avatar and profile images in `images/`
+- Navigation links in `_data/navigation.yml`
+- Homepage sections in `_pages/about.md`
+- CV file and CV link
+- Publication metadata, project descriptions, and external links
+- Analytics or site verification settings, if needed
+
+## License
+
+This project is released under the MIT License. See `LICENSE` for details.
+
+## Acknowledgements
+
+We appreciate your use of this template and look forward to your contributions. Contributors are welcome to voluntarily submit homepages built with this template for inclusion in our showcase.

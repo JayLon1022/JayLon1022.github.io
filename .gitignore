@@ -1,6 +1,5 @@
-# Ignore the contents of the _site directory and other cache directories
+# Ignore the contents of the _site directory
 _site/
-.sass-cache/
 
 # Ignore the directory for local files during development
 local/
@@ -11,5 +10,3 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
-
-.vscode/*
