@@ -96,7 +96,9 @@
   <ol class="pubs">
 
     <li>
-      <a href="assets/img/StageGuard_KDD2026.pdf"><img class="thumb" src="assets/img/stageguard-poster.png" alt="StageGuard poster"></a>
+      <button class="poster-trigger" type="button" data-poster="assets/img/stageguard-poster.png" data-title="StageGuard poster" aria-label="Open StageGuard poster">
+        <img class="thumb" src="assets/img/stageguard-poster.png" alt="StageGuard poster">
+      </button>
       <div>
         <div class="pub-title"><a href="assets/files/kdd2026_stageguard.pdf">StageGuard: Physiologically Constrained Sleep Staging</a></div>
         <div class="pub-authors">Juntang Wang*, Yihan Wang*, <em class="me">Hao Wu*</em>, Jiayu Gao, Shixin Xu, Dongmian Zou</div>
@@ -106,7 +108,9 @@
     </li>
 
     <li>
-      <a href="assets/img/MixConfig_ICML2026.pdf"><img class="thumb" src="assets/img/mixconfig-poster.png" alt="MixConfig poster"></a>
+      <button class="poster-trigger" type="button" data-poster="assets/img/mixconfig-poster.png" data-title="MixConfig poster" aria-label="Open MixConfig poster">
+        <img class="thumb" src="assets/img/mixconfig-poster.png" alt="MixConfig poster">
+      </button>
       <div>
         <div class="pub-title"><a href="assets/files/icml2026_mixconfig.pdf">Mixing Configurations for Downstream Prediction</a></div>
         <div class="pub-authors">Juntang Wang*, <em class="me">Hao Wu*</em>, Yihan Wang*, Dongmian Zou, Shixin Xu</div>
@@ -166,6 +170,39 @@
   </footer>
 
 </div>
+
+<dialog class="poster-lightbox" id="poster-lightbox" aria-labelledby="poster-lightbox-title">
+  <button class="poster-lightbox-close" type="button" aria-label="Close poster">&times;</button>
+  <img class="poster-lightbox-image" src="" alt="">
+  <div class="poster-lightbox-title" id="poster-lightbox-title"></div>
+</dialog>
+
+<script>
+  const posterLightbox = document.getElementById('poster-lightbox');
+  const posterLightboxImage = posterLightbox.querySelector('.poster-lightbox-image');
+  const posterLightboxTitle = posterLightbox.querySelector('.poster-lightbox-title');
+  const posterLightboxClose = posterLightbox.querySelector('.poster-lightbox-close');
+
+  document.querySelectorAll('.poster-trigger').forEach((trigger) => {
+    trigger.addEventListener('click', () => {
+      posterLightboxImage.src = trigger.dataset.poster;
+      posterLightboxImage.alt = trigger.dataset.title;
+      posterLightboxTitle.textContent = trigger.dataset.title;
+      posterLightbox.showModal();
+    });
+  });
+
+  posterLightboxClose.addEventListener('click', () => posterLightbox.close());
+  posterLightbox.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') posterLightbox.close();
+  });
+  posterLightbox.addEventListener('click', (event) => {
+    if (event.target === posterLightbox) posterLightbox.close();
+  });
+  posterLightbox.addEventListener('close', () => {
+    posterLightboxImage.src = '';
+  });
+</script>
 
 </body>
 </html>
